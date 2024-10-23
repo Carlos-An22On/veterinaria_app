@@ -24,7 +24,7 @@ AUTH_USER_MODEL = 'reservas.Usuario'
 SECRET_KEY = 'django-insecure-d()pxi!ad3855cn)10zm!4+hnal_rdyh@5z3!*psfg@b@8cfws'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'veterinaria-app-1.onrender.com',  '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['https://veterinaria-app-1.onrender.com']
